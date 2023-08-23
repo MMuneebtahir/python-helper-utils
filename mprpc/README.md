@@ -13,9 +13,11 @@
 ## Installation
 
 1. Clone the repository:
-   ```shell
-   https://github.com/MMuneebtahir/python-helper-utils.git
-   cd python-helper-utils
+   
+   				https://github.com/MMuneebtahir/python-helper-utils.git
+   ------
+
+   				cd python-helper-utils
 
 ## MpRPC Server Example
 
@@ -32,11 +34,12 @@ The server will start listening on the specified host and port. Make sure to con
 ### Available Operations
 --------------------
 sum(x, y): Returns the sum of two numbers.
+
 multiply(x, y): Returns the product of two numbers.
 
 ### Configuration
 -------------
-You can configure the server's host and port by modifying the startserver function call in the server.py script.
+You can configure the server's host and port by modifying the start-server function call in the server.py script.
 
 				startserver(host='0.0.0.0', port=12345)
 
@@ -53,7 +56,7 @@ Replace '192.168.10.208' and 6000 with the appropriate host and port of the MpRP
 
 ### Installation
 --------------------
-To run the client code, you need the rpc library. Make sure you have the library installed and configured properly.
+To run the client code, you need the RPC library. Make sure you have the library installed and configured properly.
 
 ### Building
 --------------------
@@ -66,11 +69,11 @@ Compile the C++ code using your preferred compiler:
 Ensure that the host and port specified in the `rpc::client` constructor match the configuration of your MpRPC server.
 
 
-##Contributing
+## Contributing
 ------------
 Contributions are welcome! If you find any issues or want to improve the project, feel free to create a pull request.
 
-##License
+## License
 -------
 This project is licensed under the MIT License - see the LICENSE file for details.
 
